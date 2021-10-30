@@ -34,8 +34,24 @@ public class Main {
 
             default:
                 System.out.println("Liczba nieprzysta");
+                break;
 
      }
+
+     /* zad 1, przykład b */
+
+        Scanner scann = new Scanner((System.in));
+        System.out.println("Podaj liczbę: ");
+        int r = (scann.nextInt());
+        switch (r % 7){
+            case 0:
+                System.out.println("Liczba podzielna przez 7");
+                break;
+
+            default:
+                System.out.println("Liczba nie podzielna przez 7");
+                break;
+        }
 
 
 
