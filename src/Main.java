@@ -16,12 +16,15 @@ public class Main {
 
 
         int r = 100;
-        while (r == 0){
+        while (r > 0){
+           System.out.println(" " + r);
             r--;
-            System.out.println(r);
 
         }
-        while (r > 0){
+
+        while ((r--) > 0)
+        {
+            System.out.println("");
             if (r % 9 == 0){
                 System.out.print(r + "podzielne przez 9");
             }
