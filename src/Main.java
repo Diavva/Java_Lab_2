@@ -24,7 +24,7 @@ public class Main {
 
         while ((r--) > 0)
         {
-            System.out.println("");
+            System.out.println("9: " + r);
             if (r % 9 == 0){
                 System.out.print(r + "podzielne przez 9");
             }
