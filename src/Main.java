@@ -55,6 +55,36 @@ public class Main {
 
 
 
+        /* zadanie 2 a i b */
+
+        String tekst = "ooooozjoonoxoooozoooooooooozoxooooopnpppoooiiooooomnzooooxoqoojoozoootyoooozoooxoooozooooxooooooojoooopxoooonnmooo";
+        int[] tab = {0,0,0,0,0};
+        for (char zmienna : tekst.toCharArray()) {
+            switch (zmienna) {
+                case 'o':
+                    ++tab[0];
+                    break;
+
+                case 'p':
+                    ++tab[1];
+                    break;
+
+                case 'x':
+                    ++tab[2];
+                    break;
+
+                case 'z':
+                    ++tab[3];
+                    break;
+
+                case 'q':
+                    ++tab[4];
+                    break;
+            }
+        }
+
+        System.out.printf("\n Liczba liter w stringu: \n o: %d \n p: %d \n x: %d \n z: %d \n q: %d",
+                tab[0], tab[1], tab[2], tab[3], tab[4] );
 
     }
 }
