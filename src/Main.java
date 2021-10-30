@@ -11,5 +11,28 @@ public class Main {
         */
 
 
+
+        for (int r = 0; r <= 5; r++) {
+            if (r == 3) ;
+            break;
+        }
+
+            for ( int q = 0; q < 10; q++){
+                if (q == 6);
+                continue;
+
+            }
+
+            for (int e = 0; e <= 15; e++){
+                if (e >= 9);
+                return;
+
+
+
+
+
+
+
+        }
     }
 }
