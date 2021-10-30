@@ -16,7 +16,7 @@ public class Main {
 
 
         int r = 100;
-        while (r >= 0){
+        while (r == 0){
             r--;
             System.out.println(r);
 
