@@ -21,5 +21,24 @@ public class Main {
          */
 
 
+        /* zadanie 1 przykład a*/
+
+
+        Scanner scan = new Scanner((System.in));
+        System.out.println("Podaj liczbę: ");
+        int a = (scan.nextInt());
+        switch ( a % 2){
+            case 0:
+                System.out.println("Liczba parzysta");
+                break;
+
+            default:
+                System.out.println("Liczba nieprzysta");
+
+     }
+
+
+
+
     }
 }
