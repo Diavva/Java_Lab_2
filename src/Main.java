@@ -14,5 +14,17 @@ public class Main {
          * za pomocą pętli forEach powiększone o 11 */
 
 
+
+        int r = 100;
+        while (r >= 0){
+            r--;
+            System.out.println(r);
+
+        }
+        while (r > 0){
+            if (r % 9 == 0){
+                System.out.print(r + "podzielne przez 9");
+            }
+        }
     }
 }
