@@ -13,20 +13,26 @@ public class Main {
 
 
         for (int r = 0; r <= 5; r++) {
-            if (r == 3) ;
+            if (r == 3)
             break;
+            System.out.print(" " + r);
         }
+        System.out.print("\n");
 
             for ( int q = 0; q < 10; q++){
-                if (q == 6);
+                if (q == 6)
                 continue;
 
+
+                System.out.print(" " + q);
             }
+        System.out.print("\n");
 
             for (int e = 0; e <= 15; e++){
-                if (e >= 9);
+                if (e >= 9)
                 return;
 
+                System.out.print(" "+ e);
 
 
 
