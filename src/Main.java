@@ -26,19 +26,19 @@ public class Main {
         /* zad 1 */
 
         int i = 1000;
-        while (i != 0){ System.out.println("i: " + i);
-            i--;}
+        while (i > 0) {
+            System.out.println("i: " + i);
+            i--;
 
-        if (i % 89 == 0){
-        System.out.println("Liczba podzielna przez 89");}
-
-
-
-
-
-
-
+            while ((i--) > 0) {
+                {
+                    System.out.println("89: " + i);
+                    if (i % 89 == 0) {
+                        System.out.println("Liczba podzielna przez 89");
+                    }
 
 
-    }
-}
+                }
+            }
+        }
+    }}
