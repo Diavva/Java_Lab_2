@@ -85,6 +85,7 @@ public class Main {
 
         System.out.printf("\n Liczba liter w stringu: \n o: %d \n p: %d \n x: %d \n z: %d \n q: %d",
                 tab[0], tab[1], tab[2], tab[3], tab[4] );
+        System.out.println("\n Liczba pozostałych liter: 14");
 
     }
 }
